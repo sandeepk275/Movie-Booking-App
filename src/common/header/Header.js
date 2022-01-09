@@ -1,4 +1,4 @@
-import React, { Component, Link } from "react";
+import React, { Component } from "react";
 import "./Header.css";
 import Button from "@material-ui/core/Button";
 import logo from "../../assets/logo.svg";
@@ -11,7 +11,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import Input from "@material-ui/core/Input";
 import PropTypes from "prop-types";
 import FormHelperText from "@material-ui/core/FormHelperText";
-// import { Link } from "react";
+import { Link } from "react-router-dom";
 
 const customStyles = {
   content: {
